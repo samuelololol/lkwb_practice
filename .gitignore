@@ -1,0 +1,4 @@
+*.o
+*.ko
+*.bak
+*/.tmp_versions/*
