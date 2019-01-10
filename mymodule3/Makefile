@@ -19,7 +19,7 @@ insert: modules
 	sudo insmod $(CURDIR)/$(KO_FILE) param1=10 param2=20
 
 remove:
-	sudo rmmod $(CURDIR)/$(MODULE_FILENAME)
+	sudo rmmod $(MODULE_FILENAME)
 
 printlog: modules
 	sudo dmesg -c
